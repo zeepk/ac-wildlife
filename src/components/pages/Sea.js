@@ -45,9 +45,10 @@ const Sea = (props) => {
 						iconUri: jsonData[critter]['icon_uri'],
 						speed: jsonData[critter]['speed'],
 						size: jsonData[critter]['shadow'],
-						january: jsonData[critter]['availability'][
-							'month-array-northern'
-						].includes(1),
+						january:
+							jsonData[critter]['availability'][
+								'month-array-northern'
+							].includes(1),
 					};
 					months.forEach((month) => {
 						critterObject[month.name] = jsonData[critter]['availability'][
@@ -100,7 +101,6 @@ const Sea = (props) => {
 	});
 
 	const checkboxChange = (name) => {
-		console.log('changing...');
 		if (window.localStorage.getItem(name) === 'false') {
 			window.localStorage.setItem(name, 'true');
 		} else if (window.localStorage.getItem(name) === 'true') {
@@ -117,12 +117,12 @@ const Sea = (props) => {
 				color="primary"
 				checked={
 					window.localStorage.getItem(
-						rowData.name.toLowerCase().replace("'", '').split(' ').join('_')
+						rowData.name.toLowerCase().replace("'", '').split(' ').join('_'),
 					) === 'true'
 				}
 				onChange={() =>
 					checkboxChange(
-						rowData.name.toLowerCase().replace("'", '').split(' ').join('_')
+						rowData.name.toLowerCase().replace("'", '').split(' ').join('_'),
 					)
 				}
 			/>
@@ -132,8 +132,8 @@ const Sea = (props) => {
 		? data.filter(
 				(critter) =>
 					window.localStorage.getItem(
-						critter.name.toLowerCase().replace("'", '').split(' ').join('_')
-					) === 'false'
+						critter.name.toLowerCase().replace("'", '').split(' ').join('_'),
+					) === 'false',
 		  )
 		: data;
 	if (loading) {

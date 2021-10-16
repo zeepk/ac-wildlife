@@ -91,7 +91,7 @@ const Bugs = (props) => {
 				} else {
 					return props.order;
 				}
-			})
+			}),
 		);
 		return data;
 	};
@@ -116,7 +116,6 @@ const Bugs = (props) => {
 	});
 
 	const checkboxChange = (name) => {
-		console.log('changing...');
 		if (window.localStorage.getItem(name) === 'false') {
 			window.localStorage.setItem(name, 'true');
 		} else if (window.localStorage.getItem(name) === 'true') {
@@ -138,7 +137,7 @@ const Bugs = (props) => {
 	};
 	const filteredData = props.hideCaught
 		? data.filter(
-				(critter) => window.localStorage.getItem(critter.name) === 'false'
+				(critter) => window.localStorage.getItem(critter.name) === 'false',
 		  )
 		: data;
 	if (loading) {

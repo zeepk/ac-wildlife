@@ -1,18 +1,26 @@
 const { DateTime } = require('luxon');
 var now = DateTime.local();
 
+export const updateDate = DateTime.fromJSDate(new Date('05 November 2021'));
+export const daysUntilUpdate = Math.abs(
+	Math.floor(now.diff(updateDate).as('days')),
+);
+
 // urls
 
 export const apiUrl = 'https://acnhapi.com/v1';
+export const nintendoDirectLink = 'https://youtu.be/g6LdBAbT1Xw';
 
 // verbiage
 
 export const version = '2.6.4';
 export const totalsTitleText = 'Your Progress';
 export const availableNowText = `Available Now as of  ${now.toLocaleString(
-	DateTime.TIME_SIMPLE
+	DateTime.TIME_SIMPLE,
 )}`;
-export const messageOfTheDay = '🎇 Happy New Year! 🎇';
+export const messageOfTheDay = `Only ${daysUntilUpdate} ${
+	daysUntilUpdate === 1 ? 'day' : 'days'
+} until the update! 🎉`;
 export const loadingMessage = 'Loading . . .';
 export const isOrderableText = 'Catalog';
 export const noCrittersMessage = "Congrats! You've got em all!";
@@ -20,6 +28,7 @@ export const alwaysRealArtText = 'Always Real';
 export const landingPageImportExportLabelText =
 	'Transfer your data between devices:';
 export const noNewDataThisMonthText = 'Nothing new!';
+export const noneAvailableText = 'None!';
 
 // functions
 

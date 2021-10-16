@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { apiUrl, messageOfTheDay } from '../../../src/utils/constants';
+import {
+	apiUrl,
+	messageOfTheDay,
+	nintendoDirectLink,
+} from '../../../src/utils/constants';
 import Totals from '../common/Totals.jsx';
 import Available from '../common/Available.jsx';
 import LandingPageImportExport from '../common/LandingPageImportExport.jsx';
@@ -37,7 +41,7 @@ const LandingPage = () => {
 			fetch(`${apiUrl}/art`),
 		])
 			.then((responses) =>
-				Promise.all(responses.map((response) => response.json()))
+				Promise.all(responses.map((response) => response.json())),
 			)
 			.then((data) => {
 				const availableNow = [];
@@ -51,7 +55,7 @@ const LandingPage = () => {
 						isAvailableNow(name, data[0][critter]) &&
 							availableNow.push(data[0][critter]);
 						return name;
-					})
+					}),
 				);
 				const bugs = countTotal(
 					Object.keys(data[1]).map((critter) => {
@@ -63,7 +67,7 @@ const LandingPage = () => {
 						isAvailableNow(name, data[1][critter]) &&
 							availableNow.push(data[1][critter]);
 						return name;
-					})
+					}),
 				);
 				const sea = countTotal(Object.keys(data[2]));
 				Object.keys(data[2]).forEach((critter) => {
@@ -80,9 +84,9 @@ const LandingPage = () => {
 							.toLowerCase()
 							.replace(
 								/^./,
-								data[3][critter]['name']['name-USen'][0].toUpperCase()
+								data[3][critter]['name']['name-USen'][0].toUpperCase(),
 							);
-					})
+					}),
 				);
 				const songs = countTotal(
 					Object.keys(data[4]).map((fish) => {
@@ -91,7 +95,7 @@ const LandingPage = () => {
 							.replace(/(^|[\s-])\S/g, function (match) {
 								return match.toUpperCase();
 							});
-					})
+					}),
 				);
 				const art = countTotal(
 					Object.keys(data[5]).map((fish) => {
@@ -100,7 +104,7 @@ const LandingPage = () => {
 							.replace(/(^|[\s-])\S/g, function (match) {
 								return match.toUpperCase();
 							});
-					})
+					}),
 				);
 				setTotals({
 					fish,
@@ -119,7 +123,9 @@ const LandingPage = () => {
 
 	return (
 		<div>
-			<Title>{messageOfTheDay}</Title>
+			<Title className="text--landing-title" href={nintendoDirectLink}>
+				{messageOfTheDay}
+			</Title>
 			<TotalsContainer>
 				<Totals totals={totals} />
 			</TotalsContainer>
@@ -135,10 +141,13 @@ const LandingPage = () => {
 
 export default LandingPage;
 
-const Title = styled.p`
-	font-size: clamp(2rem, 3vw, 5rem);
-	margin: 10px 0 0 0;
-	color: var(--dark-font);
+const Title = styled.a`
+	&.text--landing-title {
+		display: inline-block;
+		font-size: clamp(2rem, 3vw, 5rem);
+		margin: 3rem 1rem;
+		color: var(--dark-font);
+	}
 `;
 
 const TotalsContainer = styled.div`

@@ -93,7 +93,7 @@ const Fish = (props) => {
 				} else {
 					return props.order;
 				}
-			})
+			}),
 		);
 		return data;
 	};
@@ -113,12 +113,12 @@ const Fish = (props) => {
 				monthNumber={month.order}
 				header={month.abbreviation}
 				body={CellMonthDisplay}
+				key={month}
 			/>
 		);
 	});
 
 	const checkboxChange = (name) => {
-		console.log('changing...');
 		if (window.localStorage.getItem(name) === 'false') {
 			window.localStorage.setItem(name, 'true');
 		} else if (window.localStorage.getItem(name) === 'true') {
@@ -141,7 +141,7 @@ const Fish = (props) => {
 	};
 	const filteredData = props.hideCaught
 		? data.filter(
-				(critter) => window.localStorage.getItem(critter.name) === 'false'
+				(critter) => window.localStorage.getItem(critter.name) === 'false',
 		  )
 		: data;
 	if (loading) {

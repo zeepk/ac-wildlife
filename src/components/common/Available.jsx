@@ -7,9 +7,11 @@ import {
 	carouselAutoplayInterval,
 	carouselNumScroll,
 	carouselNumShow,
+	noneAvailableText,
 } from '../../../src/utils/constants';
 const Available = (props) => {
 	const available = props.available.sort(() => Math.random() - 0.5);
+	const noneAvailable = available.length === 0;
 	const responsiveOptions = [
 		{
 			breakpoint: '1024px',
@@ -31,15 +33,19 @@ const Available = (props) => {
 	return (
 		<AvailableCard>
 			<Title>{availableNowText}</Title>
-			<Carousel
-				value={available}
-				itemTemplate={AvailableCarouselDisplay}
-				responsiveOptions={responsiveOptions}
-				circular
-				numVisible={carouselNumShow}
-				numScroll={carouselNumScroll}
-				autoplayInterval={carouselAutoplayInterval}
-			></Carousel>
+			{!noneAvailable ? (
+				<Carousel
+					value={available}
+					itemTemplate={AvailableCarouselDisplay}
+					responsiveOptions={responsiveOptions}
+					circular
+					numVisible={carouselNumShow}
+					numScroll={carouselNumScroll}
+					autoplayInterval={carouselAutoplayInterval}
+				></Carousel>
+			) : (
+				<Title>{noneAvailableText}</Title>
+			)}
 		</AvailableCard>
 	);
 };

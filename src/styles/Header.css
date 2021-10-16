@@ -59,3 +59,6 @@
 .p-card .p-card-body {
 	padding: 0 1rem !important;
 }
+a:hover {
+	color: rgb(212, 212, 212);
+}

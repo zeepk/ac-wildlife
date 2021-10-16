@@ -41,7 +41,6 @@ const Art = (props) => {
 			.then(() => setLoading(false));
 	}, []);
 	const checkboxChange = (name) => {
-		console.log('changing...');
 		if (window.localStorage.getItem(name) === 'false') {
 			window.localStorage.setItem(name, 'true');
 		} else if (window.localStorage.getItem(name) === 'true') {
@@ -63,7 +62,7 @@ const Art = (props) => {
 	};
 	const filteredData = props.hideCaught
 		? data.filter(
-				(critter) => window.localStorage.getItem(critter.name) === 'false'
+				(critter) => window.localStorage.getItem(critter.name) === 'false',
 		  )
 		: data;
 	if (loading) {
