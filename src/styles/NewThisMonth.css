@@ -43,9 +43,15 @@
 	background-position: center;
 }
 .new-critter-image {
-	width: 4vw;
+	max-width: 4vw;
+	max-height: 4rem;
+	max-width: 100%;
 }
 .p-dialog-content {
 	overflow: auto;
 	padding-top: 0 !important;
+}
+.critter-image-container {
+	height: 15rem;
+	max-width: 100%;
 }

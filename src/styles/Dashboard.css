@@ -76,6 +76,7 @@
 }
 .critter-image {
 	max-width: 4vw;
+	max-height: 100%;
 	max-width: 100%;
 }
 .mobile-critter-image {
@@ -156,8 +157,12 @@ td {
 .icon-column {
 	width: 100px;
 }
-.time-column {
-	width: 90px;
+th.time-column {
+	width: 90px !important;
+}
+td.time-column {
+	padding: 0 !important;
+	height: 7.5rem;
 }
 .size-column {
 	width: 100px;

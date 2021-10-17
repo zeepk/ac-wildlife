@@ -55,3 +55,6 @@
 a:hover {
 	color: rgb(212, 212, 212);
 }
+.p-inputswitch-slider {
+	min-width: 3rem;
+}

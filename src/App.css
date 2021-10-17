@@ -16,6 +16,7 @@
 	background-attachment: fixed;
 	background-position: center;
 	min-height: 100vh;
+	overflow-x: hidden;
 }
 .App *:not(.pi) {
 	font-family: 'Baloo 2', cursive !important;
