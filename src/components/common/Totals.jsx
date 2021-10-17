@@ -158,6 +158,15 @@ const TotalContainer = styled.a`
 	height: 100%;
 	align-content: space-between;
 
+	img {
+		transition: all 0.1s ease-in-out;
+	}
+	&:hover {
+		img {
+			transform: scale(1.4);
+		}
+	}
+
 	.progress {
 		height: 25px;
 		width: 100%;
@@ -175,4 +184,5 @@ const Icon = styled.img`
 	width: auto;
 	height: auto;
 	margin: 0 auto 10px auto;
+	z-index: 1;
 `;

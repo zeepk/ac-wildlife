@@ -1,7 +1,4 @@
-@media screen and (max-width: 480px) {
-	.header-container {
-		height: 15vh !important	;
-	}
+@media screen and (max-width: 986px) {
 	.logo-image {
 		width: 17vw;
 	}
@@ -12,15 +9,11 @@
 		display: block !important;
 	}
 }
-
+.navbar-toggler {
+	margin-right: 0.5rem;
+}
 .MuiGrid-item {
 	padding: none !important;
-}
-.header-container {
-	position: relative;
-	height: 14vh;
-	background-color: var(--blue);
-	/* z-index: -; */
 }
 .nav-text {
 	font-size: 1.2rem;

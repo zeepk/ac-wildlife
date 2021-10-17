@@ -1,4 +1,11 @@
+@media (min-width: 580px) {
+	.footer {
+		position: fixed;
+	}
+}
 .footer {
+	bottom: 0;
+	width: 100%;
 	/* margin: 1vh 0; */
 	padding: 5px 0;
 	/* background-color: #a1d4cb; */

@@ -8,6 +8,7 @@ import {
 import Totals from '../common/Totals.jsx';
 import Available from '../common/Available.jsx';
 import LandingPageImportExport from '../common/LandingPageImportExport.jsx';
+import '../../styles/LandingPage.css';
 
 const isAvailableNow = (name, data) => {
 	const month = new Date().getMonth() + 1;

@@ -17,6 +17,6 @@
 	background-position: center;
 	min-height: 100vh;
 }
-.App * {
+.App *:not(.pi) {
 	font-family: 'Baloo 2', cursive !important;
 }
