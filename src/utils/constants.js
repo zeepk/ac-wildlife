@@ -18,9 +18,7 @@ export const totalsTitleText = 'Your Progress';
 export const availableNowText = `Available Now as of  ${now.toLocaleString(
 	DateTime.TIME_SIMPLE,
 )}`;
-export const messageOfTheDay = `Only ${daysUntilUpdate} ${
-	daysUntilUpdate === 1 ? 'day' : 'days'
-} until the update! 🎉`;
+export const messageOfTheDay = 'ACNH 2.0 is Here!';
 export const loadingMessage = 'Loading . . .';
 export const isOrderableText = 'Catalog';
 export const noCrittersMessage = "Congrats! You've got em all!";
