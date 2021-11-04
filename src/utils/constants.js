@@ -1,11 +1,6 @@
 const { DateTime } = require('luxon');
 var now = DateTime.local();
 
-export const updateDate = DateTime.fromJSDate(new Date('05 November 2021'));
-export const daysUntilUpdate = Math.abs(
-	Math.floor(now.diff(updateDate).as('days')),
-);
-
 // urls
 
 export const apiUrl = 'https://acnhapi.com/v1';
@@ -13,12 +8,12 @@ export const nintendoDirectLink = 'https://youtu.be/g6LdBAbT1Xw';
 
 // verbiage
 
-export const version = '2.6.4';
+export const version = '2.6.5';
 export const totalsTitleText = 'Your Progress';
 export const availableNowText = `Available Now as of  ${now.toLocaleString(
 	DateTime.TIME_SIMPLE,
 )}`;
-export const messageOfTheDay = 'ACNH 2.0 is Here!';
+export const messageOfTheDay = 'ACNH 2.0 is Here! 🎉';
 export const loadingMessage = 'Loading . . .';
 export const isOrderableText = 'Catalog';
 export const noCrittersMessage = "Congrats! You've got em all!";
