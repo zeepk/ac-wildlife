@@ -8,6 +8,7 @@ import {
 import Totals from '../common/Totals.jsx';
 import Available from '../common/Available.jsx';
 import LandingPageImportExport from '../common/LandingPageImportExport.jsx';
+import { gyroids } from '../../data_files/gyroids.json';
 import '../../styles/LandingPage.css';
 
 const isAvailableNow = (name, data) => {
@@ -71,6 +72,7 @@ const LandingPage = () => {
 					}),
 				);
 				const sea = countTotal(Object.keys(data[2]));
+				const gyroidCount = countTotal(gyroids.map((g) => g.combinedName));
 				Object.keys(data[2]).forEach((critter) => {
 					isAvailableNow(critter, data[2][critter]) &&
 						availableNow.push(data[2][critter]);
@@ -114,6 +116,7 @@ const LandingPage = () => {
 					fossils,
 					songs,
 					art,
+					gyroids: gyroidCount,
 				});
 				setAvailable(availableNow);
 			})

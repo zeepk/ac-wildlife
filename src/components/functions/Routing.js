@@ -6,6 +6,7 @@ import Fish from '../pages/Fish';
 import Bugs from '../pages/Bugs';
 import Songs from '../pages/Songs';
 import Fossils from '../pages/Fossils';
+import Gyroids from '../pages/Gyroids';
 import LandingPage from '../pages/LandingPage';
 import '../../styles/Dashboard.css';
 
@@ -32,6 +33,9 @@ export default function Routing(props) {
 			</Route>
 			<Route exact path="/art">
 				<Art hideCaught={props.hideCaught} />
+			</Route>
+			<Route exact path="/gyroids">
+				<Gyroids hideCaught={props.hideCaught} />
 			</Route>
 		</Switch>
 	);

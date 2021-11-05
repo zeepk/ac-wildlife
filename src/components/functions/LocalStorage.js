@@ -3,6 +3,7 @@ import { fish } from '../../data_files/fish.json';
 import { sea } from '../../data_files/sea.json';
 import { fossils } from '../../data_files/fossils.json';
 import { songs } from '../../data_files/songs.json';
+import { gyroids } from '../../data_files/gyroids.json';
 import { misspelled, apiUrl } from '../../utils/constants';
 
 export default function LocalStorage() {
@@ -63,6 +64,16 @@ export default function LocalStorage() {
 	}
 	if (
 		typeof Storage !== 'undefined' &&
+		localStorage.getItem('Silver Aluminoid') === null
+	) {
+		console.log('Could not find local storage for Gyroids. Creating...');
+		gyroids.map((gyroid) => {
+			window.localStorage.setItem(gyroid.combinedName, false);
+			return gyroid;
+		});
+	}
+	if (
+		typeof Storage !== 'undefined' &&
 		localStorage.getItem('Academic Painting') === null
 	) {
 		console.log('Could not find local storage for Art. Creating...');
@@ -84,7 +95,7 @@ export default function LocalStorage() {
 		if (localStorage.getItem(misspelled[critter].correct) === null) {
 			window.localStorage.setItem(
 				misspelled[critter].correct,
-				localStorage.getItem(misspelled[critter].incorrect)
+				localStorage.getItem(misspelled[critter].incorrect),
 			);
 		}
 	}

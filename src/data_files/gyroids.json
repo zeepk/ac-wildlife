@@ -1,0 +1,1138 @@
+{
+	"gyroids": [
+		{
+			"id": 0,
+			"name": "Aluminoid",
+			"color": "Silver",
+			"combinedName": "Silver Aluminoid"
+		},
+		{
+			"id": 1,
+			"name": "Aluminoid",
+			"color": "Copper",
+			"combinedName": "Copper Aluminoid"
+		},
+		{
+			"id": 2,
+			"name": "Aluminoid",
+			"color": "Blue",
+			"combinedName": "Blue Aluminoid"
+		},
+		{
+			"id": 3,
+			"name": "Aluminoid",
+			"color": "Black",
+			"combinedName": "Black Aluminoid"
+		},
+		{
+			"id": 4,
+			"name": "Arfoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Arfoid"
+		},
+		{
+			"id": 5,
+			"name": "Arfoid",
+			"color": "Brown",
+			"combinedName": "Brown Arfoid"
+		},
+		{
+			"id": 6,
+			"name": "Arfoid",
+			"color": "Green",
+			"combinedName": "Green Arfoid"
+		},
+		{
+			"id": 7,
+			"name": "Arfoid",
+			"color": "Pink",
+			"combinedName": "Pink Arfoid"
+		},
+		{
+			"id": 8,
+			"name": "Arfoid",
+			"color": "Blue",
+			"combinedName": "Blue Arfoid"
+		},
+		{
+			"id": 9,
+			"name": "Babbloid",
+			"color": "Blue",
+			"combinedName": "Blue Babbloid"
+		},
+		{
+			"id": 10,
+			"name": "Babbloid",
+			"color": "Pink",
+			"combinedName": "Pink Babbloid"
+		},
+		{
+			"id": 11,
+			"name": "Babbloid",
+			"color": "Green",
+			"combinedName": "Green Babbloid"
+		},
+		{
+			"id": 12,
+			"name": "Babbloid",
+			"color": "Purple",
+			"combinedName": "Purple Babbloid"
+		},
+		{
+			"id": 13,
+			"name": "Babbloid",
+			"color": "Brown",
+			"combinedName": "Brown Babbloid"
+		},
+		{
+			"id": 14,
+			"name": "Babbloid",
+			"color": "White",
+			"combinedName": "White Babbloid"
+		},
+		{
+			"id": 15,
+			"name": "Bendoid",
+			"color": "Orange",
+			"combinedName": "Orange Bendoid"
+		},
+		{
+			"id": 16,
+			"name": "Bendoid",
+			"color": "Beige",
+			"combinedName": "Beige Bendoid"
+		},
+		{
+			"id": 17,
+			"name": "Bendoid",
+			"color": "Green",
+			"combinedName": "Green Bendoid"
+		},
+		{
+			"id": 18,
+			"name": "Bendoid",
+			"color": "Brown",
+			"combinedName": "Brown Bendoid"
+		},
+		{
+			"id": 19,
+			"name": "Bendoid",
+			"color": "Blue",
+			"combinedName": "Blue Bendoid"
+		},
+		{
+			"id": 20,
+			"name": "Bendoid",
+			"color": "Gray",
+			"combinedName": "Gray Bendoid"
+		},
+		{
+			"id": 21,
+			"name": "Bloopoid",
+			"color": "Blue",
+			"combinedName": "Blue Bloopoid"
+		},
+		{
+			"id": 22,
+			"name": "Bloopoid",
+			"color": "Red",
+			"combinedName": "Red Bloopoid"
+		},
+		{
+			"id": 23,
+			"name": "Bloopoid",
+			"color": "Green",
+			"combinedName": "Green Bloopoid"
+		},
+		{
+			"id": 24,
+			"name": "Bloopoid",
+			"color": "Purple",
+			"combinedName": "Purple Bloopoid"
+		},
+		{
+			"id": 25,
+			"name": "Bwongoid",
+			"color": "Orange",
+			"combinedName": "Orange Bwongoid"
+		},
+		{
+			"id": 26,
+			"name": "Bwongoid",
+			"color": "Green",
+			"combinedName": "Green Bwongoid"
+		},
+		{
+			"id": 27,
+			"name": "Bwongoid",
+			"color": "Blue",
+			"combinedName": "Blue Bwongoid"
+		},
+		{
+			"id": 28,
+			"name": "Bwongoid",
+			"color": "Purple",
+			"combinedName": "Purple Bwongoid"
+		},
+		{
+			"id": 29,
+			"name": "Bwongoid",
+			"color": "Black",
+			"combinedName": "Black Bwongoid"
+		},
+		{
+			"id": 30,
+			"name": "Bwongoid",
+			"color": "Wood",
+			"combinedName": "Wood Bwongoid"
+		},
+		{
+			"id": 31,
+			"name": "Boomoid",
+			"color": "Brown",
+			"combinedName": "Brown Boomoid"
+		},
+		{
+			"id": 32,
+			"name": "Boomoid",
+			"color": "Camel",
+			"combinedName": "Camel Boomoid"
+		},
+		{
+			"id": 33,
+			"name": "Boomoid",
+			"color": "Green",
+			"combinedName": "Green Boomoid"
+		},
+		{
+			"id": 34,
+			"name": "Boomoid",
+			"color": "Blue",
+			"combinedName": "Blue Boomoid"
+		},
+		{
+			"id": 35,
+			"name": "Boomoid",
+			"color": "Purple",
+			"combinedName": "Purple Boomoid"
+		},
+		{
+			"id": 36,
+			"name": "Boomoid",
+			"color": "Black",
+			"combinedName": "Black Boomoid"
+		},
+		{
+			"id": 37,
+			"name": "Brewstoid",
+			"color": "N/A",
+			"combinedName": "N Brewstoid"
+		},
+		{
+			"id": 38,
+			"name": "Bubbloid",
+			"color": "Brown",
+			"combinedName": "Brown Bubbloid"
+		},
+		{
+			"id": 39,
+			"name": "Bubbloid",
+			"color": "Green",
+			"combinedName": "Green Bubbloid"
+		},
+		{
+			"id": 40,
+			"name": "Bubbloid",
+			"color": "Pink",
+			"combinedName": "Pink Bubbloid"
+		},
+		{
+			"id": 41,
+			"name": "Bubbloid",
+			"color": "Purple",
+			"combinedName": "Purple Bubbloid"
+		},
+		{
+			"id": 42,
+			"name": "Bubbloid",
+			"color": "White",
+			"combinedName": "White Bubbloid"
+		},
+		{
+			"id": 43,
+			"name": "Bwongoid",
+			"color": "Brown",
+			"combinedName": "Brown Bwongoid"
+		},
+		{
+			"id": 44,
+			"name": "Bwongoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Bwongoid"
+		},
+		{
+			"id": 45,
+			"name": "Bwongoid",
+			"color": "Green",
+			"combinedName": "Green Bwongoid"
+		},
+		{
+			"id": 46,
+			"name": "Bwongoid",
+			"color": "Blue",
+			"combinedName": "Blue Bwongoid"
+		},
+		{
+			"id": 47,
+			"name": "Clatteroid",
+			"color": "Pop",
+			"combinedName": "Pop Clatteroid"
+		},
+		{
+			"id": 48,
+			"name": "Clatteroid",
+			"color": "Natural",
+			"combinedName": "Natural Clatteroid"
+		},
+		{
+			"id": 49,
+			"name": "Clatteroid",
+			"color": "Cool",
+			"combinedName": "Cool Clatteroid"
+		},
+		{
+			"id": 50,
+			"name": "Clatteroid",
+			"color": "Cute",
+			"combinedName": "Cute Clatteroid"
+		},
+		{
+			"id": 51,
+			"name": "Clatteroid",
+			"color": "Chic",
+			"combinedName": "Chic Clatteroid"
+		},
+		{
+			"id": 52,
+			"name": "Crumploid",
+			"color": "Yellow",
+			"combinedName": "Yellow Crumploid"
+		},
+		{
+			"id": 53,
+			"name": "Crumploid",
+			"color": "Brown",
+			"combinedName": "Brown Crumploid"
+		},
+		{
+			"id": 54,
+			"name": "Crumploid",
+			"color": "Blue",
+			"combinedName": "Blue Crumploid"
+		},
+		{
+			"id": 55,
+			"name": "Crumploid",
+			"color": "Red",
+			"combinedName": "Red Crumploid"
+		},
+		{
+			"id": 56,
+			"name": "Crumploid",
+			"color": "Green",
+			"combinedName": "Green Crumploid"
+		},
+		{
+			"id": 57,
+			"name": "Crumploid",
+			"color": "Black",
+			"combinedName": "Black Crumploid"
+		},
+		{
+			"id": 58,
+			"name": "Dootoid",
+			"color": "Gray",
+			"combinedName": "Gray Dootoid"
+		},
+		{
+			"id": 59,
+			"name": "Dootoid",
+			"color": "Brown",
+			"combinedName": "Brown Dootoid"
+		},
+		{
+			"id": 60,
+			"name": "Dootoid",
+			"color": "Green",
+			"combinedName": "Green Dootoid"
+		},
+		{
+			"id": 61,
+			"name": "Dootoid",
+			"color": "Pink",
+			"combinedName": "Pink Dootoid"
+		},
+		{
+			"id": 62,
+			"name": "Dootoid",
+			"color": "Blue",
+			"combinedName": "Blue Dootoid"
+		},
+		{
+			"id": 63,
+			"name": "Dootoid",
+			"color": "White",
+			"combinedName": "White Dootoid"
+		},
+		{
+			"id": 64,
+			"name": "Dootoid",
+			"color": "Black",
+			"combinedName": "Black Dootoid"
+		},
+		{
+			"id": 65,
+			"name": "Drummoid",
+			"color": "Blue",
+			"combinedName": "Blue Drummoid"
+		},
+		{
+			"id": 66,
+			"name": "Drummoid",
+			"color": "Green",
+			"combinedName": "Green Drummoid"
+		},
+		{
+			"id": 67,
+			"name": "Drummoid",
+			"color": "Brown",
+			"combinedName": "Brown Drummoid"
+		},
+		{
+			"id": 68,
+			"name": "Drummoid",
+			"color": "Purple",
+			"combinedName": "Purple Drummoid"
+		},
+		{
+			"id": 69,
+			"name": "Drummoid",
+			"color": "Gray",
+			"combinedName": "Gray Drummoid"
+		},
+		{
+			"id": 70,
+			"name": "Flutteroid",
+			"color": "Orange",
+			"combinedName": "Orange Flutteroid"
+		},
+		{
+			"id": 71,
+			"name": "Flutteroid",
+			"color": "Yellow",
+			"combinedName": "Yellow Flutteroid"
+		},
+		{
+			"id": 72,
+			"name": "Flutteroid",
+			"color": "Green",
+			"combinedName": "Green Flutteroid"
+		},
+		{
+			"id": 73,
+			"name": "Flutteroid",
+			"color": "Pink",
+			"combinedName": "Pink Flutteroid"
+		},
+		{
+			"id": 74,
+			"name": "Flutteroid",
+			"color": "Purple",
+			"combinedName": "Purple Flutteroid"
+		},
+		{
+			"id": 75,
+			"name": "Jingloid",
+			"color": "Purple",
+			"combinedName": "Purple Jingloid"
+		},
+		{
+			"id": 76,
+			"name": "Jingloid",
+			"color": "Gold",
+			"combinedName": "Gold Jingloid"
+		},
+		{
+			"id": 77,
+			"name": "Jingloid",
+			"color": "Pink",
+			"combinedName": "Pink Jingloid"
+		},
+		{
+			"id": 78,
+			"name": "Jingloid",
+			"color": "Silver",
+			"combinedName": "Silver Jingloid"
+		},
+		{
+			"id": 79,
+			"name": "Jingloid",
+			"color": "Blue",
+			"combinedName": "Blue Jingloid"
+		},
+		{
+			"id": 80,
+			"name": "Laseroid",
+			"color": "Green",
+			"combinedName": "Green Laseroid"
+		},
+		{
+			"id": 81,
+			"name": "Laseroid",
+			"color": "Yellow",
+			"combinedName": "Yellow Laseroid"
+		},
+		{
+			"id": 82,
+			"name": "Laseroid",
+			"color": "Pink",
+			"combinedName": "Pink Laseroid"
+		},
+		{
+			"id": 83,
+			"name": "Laseroid",
+			"color": "Blue",
+			"combinedName": "Blue Laseroid"
+		},
+		{
+			"id": 84,
+			"name": "Laseroid",
+			"color": "Silver",
+			"combinedName": "Silver Laseroid"
+		},
+		{
+			"id": 85,
+			"name": "Oinkoid",
+			"color": "Beige",
+			"combinedName": "Beige Oinkoid"
+		},
+		{
+			"id": 86,
+			"name": "Oinkoid",
+			"color": "Brown",
+			"combinedName": "Brown Oinkoid"
+		},
+		{
+			"id": 87,
+			"name": "Oinkoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Oinkoid"
+		},
+		{
+			"id": 88,
+			"name": "Oinkoid",
+			"color": "Blue",
+			"combinedName": "Blue Oinkoid"
+		},
+		{
+			"id": 89,
+			"name": "Oinkoid",
+			"color": "Pink",
+			"combinedName": "Pink Oinkoid"
+		},
+		{
+			"id": 90,
+			"name": "Oinkoid",
+			"color": "Black",
+			"combinedName": "Black Oinkoid"
+		},
+		{
+			"id": 91,
+			"name": "Petaloid",
+			"color": "Green",
+			"combinedName": "Green Petaloid"
+		},
+		{
+			"id": 92,
+			"name": "Petaloid",
+			"color": "Brown",
+			"combinedName": "Brown Petaloid"
+		},
+		{
+			"id": 93,
+			"name": "Petaloid",
+			"color": "Yellow",
+			"combinedName": "Yellow Petaloid"
+		},
+		{
+			"id": 94,
+			"name": "Petaloid",
+			"color": "Blue",
+			"combinedName": "Blue Petaloid"
+		},
+		{
+			"id": 95,
+			"name": "Petaloid",
+			"color": "Pink",
+			"combinedName": "Pink Petaloid"
+		},
+		{
+			"id": 96,
+			"name": "Petaloid",
+			"color": "Purple",
+			"combinedName": "Purple Petaloid"
+		},
+		{
+			"id": 97,
+			"name": "Petaloid",
+			"color": "White",
+			"combinedName": "White Petaloid"
+		},
+		{
+			"id": 98,
+			"name": "Rattloid",
+			"color": "Red",
+			"combinedName": "Red Rattloid"
+		},
+		{
+			"id": 99,
+			"name": "Rattloid",
+			"color": "Brown",
+			"combinedName": "Brown Rattloid"
+		},
+		{
+			"id": 100,
+			"name": "Rattloid",
+			"color": "White",
+			"combinedName": "White Rattloid"
+		},
+		{
+			"id": 101,
+			"name": "Rattloid",
+			"color": "Blue",
+			"combinedName": "Blue Rattloid"
+		},
+		{
+			"id": 102,
+			"name": "Rattloid",
+			"color": "Green",
+			"combinedName": "Green Rattloid"
+		},
+		{
+			"id": 103,
+			"name": "Rattloid",
+			"color": "Black",
+			"combinedName": "Black Rattloid"
+		},
+		{
+			"id": 104,
+			"name": "Ringoid",
+			"color": "Red",
+			"combinedName": "Red Ringoid"
+		},
+		{
+			"id": 105,
+			"name": "Ringoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Ringoid"
+		},
+		{
+			"id": 106,
+			"name": "Ringoid",
+			"color": "Green",
+			"combinedName": "Green Ringoid"
+		},
+		{
+			"id": 107,
+			"name": "Ringoid",
+			"color": "Blue",
+			"combinedName": "Blue Ringoid"
+		},
+		{
+			"id": 108,
+			"name": "Ringoid",
+			"color": "Purple",
+			"combinedName": "Purple Ringoid"
+		},
+		{
+			"id": 109,
+			"name": "Ringoid",
+			"color": "White",
+			"combinedName": "White Ringoid"
+		},
+		{
+			"id": 110,
+			"name": "Rumbloid",
+			"color": "Purple",
+			"combinedName": "Purple Rumbloid"
+		},
+		{
+			"id": 111,
+			"name": "Rumbloid",
+			"color": "Yellow",
+			"combinedName": "Yellow Rumbloid"
+		},
+		{
+			"id": 112,
+			"name": "Rumbloid",
+			"color": "Green",
+			"combinedName": "Green Rumbloid"
+		},
+		{
+			"id": 113,
+			"name": "Rumbloid",
+			"color": "Pink",
+			"combinedName": "Pink Rumbloid"
+		},
+		{
+			"id": 114,
+			"name": "Rumbloid",
+			"color": "Blue",
+			"combinedName": "Blue Rumbloid"
+		},
+		{
+			"id": 115,
+			"name": "Rumbloid",
+			"color": "White",
+			"combinedName": "White Rumbloid"
+		},
+		{
+			"id": 116,
+			"name": "Rumbloid",
+			"color": "Gray",
+			"combinedName": "Gray Rumbloid"
+		},
+		{
+			"id": 117,
+			"name": "Scatteroid",
+			"color": "Light Brown",
+			"combinedName": "Light Brown Scatteroid"
+		},
+		{
+			"id": 118,
+			"name": "Scatteroid",
+			"color": "Brown",
+			"combinedName": "Brown Scatteroid"
+		},
+		{
+			"id": 119,
+			"name": "Scatteroid",
+			"color": "Green",
+			"combinedName": "Green Scatteroid"
+		},
+		{
+			"id": 120,
+			"name": "Scatteroid",
+			"color": "Pink",
+			"combinedName": "Pink Scatteroid"
+		},
+		{
+			"id": 121,
+			"name": "Scatteroid",
+			"color": "White",
+			"combinedName": "White Scatteroid"
+		},
+		{
+			"id": 122,
+			"name": "Spikenoid",
+			"color": "Green",
+			"combinedName": "Green Spikenoid"
+		},
+		{
+			"id": 123,
+			"name": "Spikenoid",
+			"color": "Orange",
+			"combinedName": "Orange Spikenoid"
+		},
+		{
+			"id": 124,
+			"name": "Spikenoid",
+			"color": "Brown",
+			"combinedName": "Brown Spikenoid"
+		},
+		{
+			"id": 125,
+			"name": "Spikenoid",
+			"color": "Light Green",
+			"combinedName": "Light Green Spikenoid"
+		},
+		{
+			"id": 126,
+			"name": "Spikenoid",
+			"color": "Blue",
+			"combinedName": "Blue Spikenoid"
+		},
+		{
+			"id": 127,
+			"name": "Spikenoid",
+			"color": "Camel",
+			"combinedName": "Camel Spikenoid"
+		},
+		{
+			"id": 128,
+			"name": "Spikenoid",
+			"color": "Gray",
+			"combinedName": "Gray Spikenoid"
+		},
+		{
+			"id": 129,
+			"name": "Sproingoid",
+			"color": "Camel",
+			"combinedName": "Camel Sproingoid"
+		},
+		{
+			"id": 130,
+			"name": "Sproingoid",
+			"color": "Green",
+			"combinedName": "Green Sproingoid"
+		},
+		{
+			"id": 131,
+			"name": "Sproingoid",
+			"color": "Red",
+			"combinedName": "Red Sproingoid"
+		},
+		{
+			"id": 132,
+			"name": "Sproingoid",
+			"color": "Blue",
+			"combinedName": "Blue Sproingoid"
+		},
+		{
+			"id": 133,
+			"name": "Squeakoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Squeakoid"
+		},
+		{
+			"id": 134,
+			"name": "Squeakoid",
+			"color": "White",
+			"combinedName": "White Squeakoid"
+		},
+		{
+			"id": 135,
+			"name": "Squeakoid",
+			"color": "Brown",
+			"combinedName": "Brown Squeakoid"
+		},
+		{
+			"id": 136,
+			"name": "Squeakoid",
+			"color": "Pink",
+			"combinedName": "Pink Squeakoid"
+		},
+		{
+			"id": 137,
+			"name": "Squeakoid",
+			"color": "Blue",
+			"combinedName": "Blue Squeakoid"
+		},
+		{
+			"id": 138,
+			"name": "squeezoid",
+			"color": "Beige",
+			"combinedName": "Beige squeezoid"
+		},
+		{
+			"id": 139,
+			"name": "Squeezoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Squeezoid"
+		},
+		{
+			"id": 140,
+			"name": "Squeezoid",
+			"color": "Pink",
+			"combinedName": "Pink Squeezoid"
+		},
+		{
+			"id": 141,
+			"name": "Squeezoid",
+			"color": "Blue",
+			"combinedName": "Blue Squeezoid"
+		},
+		{
+			"id": 142,
+			"name": "Squeezoid",
+			"color": "White",
+			"combinedName": "White Squeezoid"
+		},
+		{
+			"id": 143,
+			"name": "Squeezoid",
+			"color": "Black",
+			"combinedName": "Black Squeezoid"
+		},
+		{
+			"id": 144,
+			"name": "Stelloid",
+			"color": "Green",
+			"combinedName": "Green Stelloid"
+		},
+		{
+			"id": 145,
+			"name": "Stelloid",
+			"color": "Yellow",
+			"combinedName": "Yellow Stelloid"
+		},
+		{
+			"id": 146,
+			"name": "Stelloid",
+			"color": "Blue",
+			"combinedName": "Blue Stelloid"
+		},
+		{
+			"id": 147,
+			"name": "Stelloid",
+			"color": "White",
+			"combinedName": "White Stelloid"
+		},
+		{
+			"id": 148,
+			"name": "Stelloid",
+			"color": "Black",
+			"combinedName": "Black Stelloid"
+		},
+		{
+			"id": 149,
+			"name": "Thwopoid",
+			"color": "Pink",
+			"combinedName": "Pink Thwopoid"
+		},
+		{
+			"id": 150,
+			"name": "Thwopoid",
+			"color": "Beige",
+			"combinedName": "Beige Thwopoid"
+		},
+		{
+			"id": 151,
+			"name": "Thwopoid",
+			"color": "Green",
+			"combinedName": "Green Thwopoid"
+		},
+		{
+			"id": 152,
+			"name": "Thwopoid",
+			"color": "Gray",
+			"combinedName": "Gray Thwopoid"
+		},
+		{
+			"id": 153,
+			"name": "Tockoid",
+			"color": "Pop",
+			"combinedName": "Pop Tockoid"
+		},
+		{
+			"id": 154,
+			"name": "Tockoid",
+			"color": "Natural",
+			"combinedName": "Natural Tockoid"
+		},
+		{
+			"id": 155,
+			"name": "Tockoid",
+			"color": "Cool",
+			"combinedName": "Cool Tockoid"
+		},
+		{
+			"id": 156,
+			"name": "Tockoid",
+			"color": "Cute",
+			"combinedName": "Cute Tockoid"
+		},
+		{
+			"id": 157,
+			"name": "Tockoid",
+			"color": "Chic",
+			"combinedName": "Chic Tockoid"
+		},
+		{
+			"id": 158,
+			"name": "Tremoloid",
+			"color": "Blue",
+			"combinedName": "Blue Tremoloid"
+		},
+		{
+			"id": 159,
+			"name": "Tremoloid",
+			"color": "Yellow",
+			"combinedName": "Yellow Tremoloid"
+		},
+		{
+			"id": 160,
+			"name": "Tremoloid",
+			"color": "Green",
+			"combinedName": "Green Tremoloid"
+		},
+		{
+			"id": 161,
+			"name": "Tremoloid",
+			"color": "Purple",
+			"combinedName": "Purple Tremoloid"
+		},
+		{
+			"id": 162,
+			"name": "Tremoloid",
+			"color": "White",
+			"combinedName": "White Tremoloid"
+		},
+		{
+			"id": 163,
+			"name": "Twangoid",
+			"color": "Brown",
+			"combinedName": "Brown Twangoid"
+		},
+		{
+			"id": 164,
+			"name": "Twangoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Twangoid"
+		},
+		{
+			"id": 165,
+			"name": "Twangoid",
+			"color": "Green",
+			"combinedName": "Green Twangoid"
+		},
+		{
+			"id": 166,
+			"name": "Twangoid",
+			"color": "Blue",
+			"combinedName": "Blue Twangoid"
+		},
+		{
+			"id": 167,
+			"name": "Twangoid",
+			"color": "Black",
+			"combinedName": "Black Twangoid"
+		},
+		{
+			"id": 168,
+			"name": "Wallopoid",
+			"color": "Camel",
+			"combinedName": "Camel Wallopoid"
+		},
+		{
+			"id": 169,
+			"name": "Wallopoid",
+			"color": "Brown",
+			"combinedName": "Brown Wallopoid"
+		},
+		{
+			"id": 170,
+			"name": "Wallopoid",
+			"color": "Green",
+			"combinedName": "Green Wallopoid"
+		},
+		{
+			"id": 171,
+			"name": "Wallopoid",
+			"color": "Blue",
+			"combinedName": "Blue Wallopoid"
+		},
+		{
+			"id": 172,
+			"name": "Wallopoid",
+			"color": "White",
+			"combinedName": "White Wallopoid"
+		},
+		{
+			"id": 173,
+			"name": "Wallopoid",
+			"color": "Black",
+			"combinedName": "Black Wallopoid"
+		},
+		{
+			"id": 174,
+			"name": "Whirroid",
+			"color": "Blue",
+			"combinedName": "Blue Whirroid"
+		},
+		{
+			"id": 175,
+			"name": "Whirroid",
+			"color": "Red",
+			"combinedName": "Red Whirroid"
+		},
+		{
+			"id": 176,
+			"name": "Whirroid",
+			"color": "Gold",
+			"combinedName": "Gold Whirroid"
+		},
+		{
+			"id": 177,
+			"name": "Whirroid",
+			"color": "Silver",
+			"combinedName": "Silver Whirroid"
+		},
+		{
+			"id": 178,
+			"name": "Whistloid",
+			"color": "Blue",
+			"combinedName": "Blue Whistloid"
+		},
+		{
+			"id": 179,
+			"name": "Whistloid",
+			"color": "Brown",
+			"combinedName": "Brown Whistloid"
+		},
+		{
+			"id": 180,
+			"name": "Whistloid",
+			"color": "Yellow",
+			"combinedName": "Yellow Whistloid"
+		},
+		{
+			"id": 181,
+			"name": "Whistloid",
+			"color": "Green",
+			"combinedName": "Green Whistloid"
+		},
+		{
+			"id": 182,
+			"name": "Whistloid",
+			"color": "Pink",
+			"combinedName": "Pink Whistloid"
+		},
+		{
+			"id": 183,
+			"name": "Whistloid",
+			"color": "White",
+			"combinedName": "White Whistloid"
+		},
+		{
+			"id": 184,
+			"name": "Xylophoid",
+			"color": "Yellow",
+			"combinedName": "Yellow Xylophoid"
+		},
+		{
+			"id": 185,
+			"name": "Xylophoid",
+			"color": "Blue",
+			"combinedName": "Blue Xylophoid"
+		},
+		{
+			"id": 186,
+			"name": "Xylophoid",
+			"color": "Pink",
+			"combinedName": "Pink Xylophoid"
+		},
+		{
+			"id": 187,
+			"name": "Xylophoid",
+			"color": "White",
+			"combinedName": "White Xylophoid"
+		},
+		{
+			"id": 188,
+			"name": "Xylophoid",
+			"color": "Brown",
+			"combinedName": "Brown Xylophoid"
+		}
+	]
+}

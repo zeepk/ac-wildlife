@@ -8,7 +8,7 @@ export const nintendoDirectLink = 'https://youtu.be/g6LdBAbT1Xw';
 
 // verbiage
 
-export const version = '2.6.5';
+export const version = '2.7.5';
 export const totalsTitleText = 'Your Progress';
 export const availableNowText = `Available Now as of  ${now.toLocaleString(
 	DateTime.TIME_SIMPLE,
@@ -33,6 +33,7 @@ export const totalSeaCreatures = 40;
 export const totalFossils = 73;
 export const totalSongs = 95;
 export const totalArt = 43;
+export const totalGyroids = 189;
 
 export const carouselAutoplayInterval = 4000;
 export const carouselNumShow = 5;

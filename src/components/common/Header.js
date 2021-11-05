@@ -8,6 +8,7 @@ import FishIcon from '../../images/fishIcon.png';
 import SongIcon from '../../images/kkslider.png';
 import ReddIcon from '../../images/reddIcon.png';
 import FossilIcon from '../../images/fossilIcon.png';
+import GyroidIcon from '../../images/gyroidIcon.png';
 import NewThisMonth from '../common/NewThisMonth';
 import '../../styles/Header.css';
 
@@ -106,6 +107,18 @@ class Header extends Component {
 									<img src={ReddIcon} alt="Art" className="icon" />
 								</span>
 								{' Art'}
+							</Link>
+						</li>
+						<li
+							className="pr-0 nav-item"
+							data-toggle="collapse"
+							data-target=".navbar-collapse"
+						>
+							<Link to="/gyroids">
+								<span role="img">
+									<img src={GyroidIcon} alt="Gyroids" className="icon" />
+								</span>
+								{' Gyroids'}
 							</Link>
 						</li>
 					</ul>

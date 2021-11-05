@@ -5,6 +5,7 @@ import BugIcon from '../../images/bugIcon.png';
 import SongIcon from '../../images/kkslider.png';
 import SeaIcon from '../../images/sea.png';
 import ArtIcon from '../../images/reddIcon.png';
+import GyroidIcon from '../../images/gyroidIcon.png';
 import { ProgressBar } from 'primereact/progressbar';
 import {
 	progressBarColor,
@@ -16,12 +17,13 @@ import {
 	totalSongs,
 	totalArt,
 	totalsTitleText,
+	totalGyroids,
 } from '../../../src/utils/constants';
 import styled from 'styled-components';
 
 const Totals = (props) => {
-	let fish, bugs, sea, fossils, songs, art;
-	({ fish, bugs, sea, fossils, songs, art } = props.totals);
+	let fish, bugs, sea, fossils, songs, art, gyroids;
+	({ fish, bugs, sea, fossils, songs, art, gyroids } = props.totals);
 
 	return (
 		<TotalsCard>
@@ -126,6 +128,25 @@ const Totals = (props) => {
 							displayValueTemplate={() => (
 								<div>
 									{art}/{totalArt}
+								</div>
+							)}
+						/>
+					</TotalContainer>
+				</div>
+				<div className="p-col-6 p-md-4 p-lg-2">
+					<TotalContainer href="/gyroids">
+						<Icon src={GyroidIcon} alt="Gyroids" />
+						<ProgressBar
+							color={
+								gyroids === totalGyroids
+									? progressBarFullColor
+									: progressBarColor
+							}
+							className="progress"
+							value={(gyroids / totalGyroids) * 100}
+							displayValueTemplate={() => (
+								<div>
+									{gyroids}/{totalGyroids}
 								</div>
 							)}
 						/>
