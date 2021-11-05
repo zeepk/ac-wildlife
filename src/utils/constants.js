@@ -8,7 +8,7 @@ export const nintendoDirectLink = 'https://youtu.be/g6LdBAbT1Xw';
 
 // verbiage
 
-export const version = '2.7.5';
+export const version = '2.7.6';
 export const totalsTitleText = 'Your Progress';
 export const availableNowText = `Available Now as of  ${now.toLocaleString(
 	DateTime.TIME_SIMPLE,

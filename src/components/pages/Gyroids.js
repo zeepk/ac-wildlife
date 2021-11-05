@@ -3,7 +3,6 @@ import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import NoCritters from '../common/NoCritters';
 import Checkbox from '@material-ui/core/Checkbox';
-import CellNameDisplay from '../displays/CellNameDisplay';
 import { gyroids } from '../../data_files/gyroids.json';
 
 const Gyroids = (props) => {
@@ -56,7 +55,6 @@ const Gyroids = (props) => {
 				sortable={true}
 				filter={true}
 				filterPlaceholder="Search"
-				body={CellNameDisplay}
 				filterMatchMode="contains"
 				style={{ textDecoration: 'none' }}
 			/>
