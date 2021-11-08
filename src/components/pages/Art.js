@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { apiUrl } from '../../utils/constants';
+import { apiUrl, fakeArtExternalButtonText, fakeArtExternalUrl } from '../../utils/constants';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Dialog } from 'primereact/dialog';
@@ -10,6 +10,7 @@ import bellsImage from '../../images/bells.png';
 import IconDisplay from '../displays/IconDisplay';
 import LoadingScreen from '../common/LoadingScreen';
 import CellNameDisplay from '../displays/CellNameDisplay';
+import { Button } from '@material-ui/core';
 const Art = (props) => {
 	const [ren, setRen] = useState(false);
 	const [loading, setLoading] = useState(true);
@@ -60,10 +61,17 @@ const Art = (props) => {
 			/>
 		);
 	};
+
+	const handleExternalFakeArtClick = () => {
+		window.location.href = fakeArtExternalUrl;
+	}
+
+	const fakeArtButton = () => <Button label={fakeArtExternalButtonText} onClick={() => handleExternalFakeArtClick()} />
+
 	const filteredData = props.hideCaught
 		? data.filter(
-				(critter) => window.localStorage.getItem(critter.name) === 'false',
-		  )
+			(critter) => window.localStorage.getItem(critter.name) === 'false',
+		)
 		: data;
 	if (loading) {
 		return <LoadingScreen />;

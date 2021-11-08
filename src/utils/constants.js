@@ -5,6 +5,8 @@ var now = DateTime.local();
 
 export const apiUrl = 'https://acnhapi.com/v1';
 export const nintendoDirectLink = 'https://youtu.be/g6LdBAbT1Xw';
+export const fakeArtExternalUrl = 'https://www.polygon.com/animal-crossing-new-horizons-switch-acnh-guide/2020/4/23/21231433/redd-jolly-museum-art-fake-real-forgeries-list-complete-painting-statue';
+
 
 // verbiage
 
@@ -22,6 +24,7 @@ export const landingPageImportExportLabelText =
 	'Transfer your data between devices:';
 export const noNewDataThisMonthText = 'Nothing new!';
 export const noneAvailableText = 'None!';
+export const fakeArtExternalButtonText = 'Fake?';
 
 // functions
 
