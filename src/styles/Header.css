@@ -58,3 +58,11 @@ a:hover {
 .p-inputswitch-slider {
 	min-width: 3rem;
 }
+.MuiSnackbarContent-message > .text {
+	font-size: 1.3rem;
+	white-space: pre-line;
+}
+.MuiSnackbarContent-message > .text > .link {
+	font-size: 1.3rem;
+	color: cyan;
+}
